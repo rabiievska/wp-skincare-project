@@ -5,3 +5,6 @@ Author: Tetiana Rabiievska
 Description: My first WordPress project
 Version: 1.0
 */
+
+@import "./styles/index.css";
+@import "./styles/homepage.css";
