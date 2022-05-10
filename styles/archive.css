@@ -6,7 +6,7 @@
 .skincare-list-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 30px;
+  grid-gap: 120px 30px;
 }
 
 .product-item {
@@ -16,9 +16,16 @@
   position: relative;
 }
 
-.product-item-image img {
-  width: 100%;
+
+.product-item-image {
   max-height: 460px;
+  text-align: center;
+}
+
+.product-item-image img {
+  width: auto;
+  max-height: 460px;
+  object-fit: cover;
 }
 
 .product-info-wrapper {
@@ -31,8 +38,40 @@
   z-index: 3;
   padding: 35px 20px;
   transition: top .2s ease-in-out;
+  color: #333;
 }
 
-.product-info-wrapper:hover {
+.product-item:hover .product-info-wrapper {
   top: calc(75% - 30px);
+}
+
+.product-title {
+  margin: 0 0 7.5px;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-size: 26px;
+}
+
+.product-brandname-review-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #a7a7a7;
+  font-weight: 200;
+}
+
+.product-description {
+  font-size: 12px;
+}
+
+.learn-more {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  display: none;
+}
+
+.product-item:hover .learn-more {
+  display: block;
 }

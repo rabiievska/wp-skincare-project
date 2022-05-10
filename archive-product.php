@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <div class="archive-page-width">
   <h1>Here is a list of my favorite skincare products</h1>
 
@@ -19,25 +21,27 @@
               <div class="product-title">
                 <?php the_title(); ?>
               </div>
-              <div class="product-review">
+              <div class="product-brandname-review-container">
+                <div class="product-brandname">
                 <?php 
-                  $review = the_field('review'); 
-                  echo $review;
+                  $brandName = the_field('brand_name'); 
+                  echo $brandName; 
                 ?>
-              </div>
-              <div class="product-brandname">
-              <?php 
-                $brandName = the_field('brand_name'); 
-                echo $brandName; 
-              ?>
+                </div>
+                <div class="product-review">
+                  <?php 
+                    $review = the_field('review'); 
+                    echo $review;
+                  ?>
+                </div>
               </div>
               <p class="product-description">
                 <?php 
                   echo wp_trim_words(get_the_content(), 18)
                 ?>
-                <span class="learn-more">
-                  Learn more
-                </span>
+              </p>
+              <p class="learn-more">
+                Learn more
               </p>
             </div>
           </a>
@@ -46,3 +50,5 @@
     ?>
   </div>
 </div>
+
+<?php get_footer(); ?>
