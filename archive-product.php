@@ -40,9 +40,11 @@
                   echo wp_trim_words(get_the_content(), 18)
                 ?>
               </p>
-              <p class="learn-more">
-                Learn more
-              </p>
+              <div class="learn-more-wrapper">
+                <div class="learn-more">
+                  Learn more
+                </div>
+              </div>
             </div>
           </a>
         </div>
