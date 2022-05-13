@@ -1,40 +1,33 @@
-.post-type-archive-product {
-  background-image: url(../assets/viva-luna-studios-hYpHkpQG5ms-unsplash.jpg);
+.single-product {
+  background-image: url(../assets/pmv-chamara-sCFL6R7loQk-unsplash.jpg);
   background-position: center;
 }
 
-.archive-page-width {
+.single-page-width {
   max-width: 1360px;
   margin: 0 auto;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
-.archive-skincare-list-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 120px 30px;
-}
-
-.archive-product-item {
+.product-item {
   display: flex;
   flex-direction: column;
   max-width: 750px;
   position: relative;
-  background-color: #FFF;
 }
 
-.archive-product-item-image {
+.product-item-image {
   max-height: 460px;
   text-align: center;
 }
 
-.archive-product-item-image img {
+.product-item-image img {
   width: auto;
   max-height: 460px;
   object-fit: cover;
 }
 
-.archive-product-info-wrapper {
+.product-info-wrapper {
   position: absolute;
   top: 75%;
   background: white;
@@ -47,11 +40,11 @@
   color: #333;
 }
 
-.archive-product-item:hover .archive-product-info-wrapper {
+.product-item:hover .product-info-wrapper {
   top: calc(75% - 30px);
 }
 
-.archive-product-title {
+.product-title {
   margin: 0 0 7.5px;
   line-height: 1.2;
   overflow-wrap: break-word;
@@ -59,7 +52,7 @@
   font-size: 26px;
 }
 
-.archive-product-brandname-review-container {
+.product-brandname-review-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -67,22 +60,22 @@
   font-weight: 200;
 }
 
-.archive-product-description {
+.product-description {
   font-size: 12px;
 }
 
-.archive-learn-more-wrapper {
+.learn-more-wrapper {
   overflow: hidden;
   height: 0;
   transition: height .2s ease-in-out;
 }
 
-.archive-learn-more {
+.learn-more {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
 }
 
-.archive-product-item:hover .archive-learn-more-wrapper {
+.product-item:hover .learn-more-wrapper {
   height: 30px;
 }
