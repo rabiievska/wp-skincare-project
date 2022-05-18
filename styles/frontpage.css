@@ -1,0 +1,21 @@
+.frontpage {
+  background-image: url(../assets/maddi-bazzocco-UKGGgWb6_0g-unsplash.jpg);
+  background-position: center;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.frontpage-page-width {
+  max-width: 1360px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px 60px;
+}
+
+.frontpage-about-me .avatar{
+  max-width: 300px;
+  height: auto;
+  float: right;
+  margin: 0 0 40px 40px;
+}

@@ -8,5 +8,6 @@ Version: 1.0
 
 @import "./styles/index.css";
 @import "./styles/homepage.css";
+@import "./styles/frontpage.css";
 @import "./styles/archive.css";
 @import "./styles/single-product.css";
