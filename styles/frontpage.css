@@ -1,16 +1,36 @@
 .frontpage {
   background-image: url(../assets/maddi-bazzocco-UKGGgWb6_0g-unsplash.jpg);
   background-position: center;
-  font-size: 16px;
-  color: #333;
-  line-height: 1.5;
 }
 
 .frontpage-page-width {
   max-width: 1360px;
   margin: 0 auto;
-  background-color: #fff;
+  background-image: url(../assets/leaves-g8993a9ef0_1280.png);
+  background-repeat: repeat;
+  padding: 20px;
+  position: relative;
+}
+
+.frontpage-content {
+  background-color: #FFF;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
   padding: 40px 60px;
+}
+
+.frontpage-content section {
+  margin-top: 40px;
+}
+
+.frontpage-content h2 {
+  color: rgb(193, 127, 89);
+}
+
+.frontpage-about-me .first-letter {
+  font-size: 68px;
+  color: rgb(193, 127, 89);
 }
 
 .frontpage-about-me .avatar{
@@ -18,4 +38,39 @@
   height: auto;
   float: right;
   margin: 0 0 40px 40px;
+}
+
+.frontpage-destinations ul,
+.frontpage-ingredients ul,
+.frontpage-brands ul {
+  list-style: none;
+  padding: 0;
+}
+
+.frontpage-destinations li span,
+.frontpage-ingredients li span,
+.frontpage-brands li span {
+  margin-right: 10px;
+  font-size: 20px;
+  color: rgb(26, 107, 79);
+}
+
+.frontpage-link-wrap {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.frontpage-link-wrap a {
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: 3px solid #333;
+  border-radius: 5px;
+}
+
+.frontpage-link-wrap a:hover {
+  color: rgb(26, 107, 79);
+  border-color: rgb(26, 107, 79);
 }
