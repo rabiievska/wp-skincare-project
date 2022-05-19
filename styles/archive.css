@@ -1,12 +1,24 @@
 .post-type-archive-product {
-  background-image: url(../assets/viva-luna-studios-hYpHkpQG5ms-unsplash.jpg);
+  background-image: url(../assets/pmv-chamara-sCFL6R7loQk-unsplash.jpg);
   background-position: center;
 }
 
 .archive-page-width {
   max-width: 1360px;
   margin: 0 auto;
-  background-color: #FFF;
+  background-image: url(../assets/leaves-g8993a9ef0_1280.png);
+  background-repeat: repeat;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.archive-page-width h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  text-shadow: 0 0 15px white, 0 5px 0 rgb(255 255 255 / 75%);
+  margin-bottom: 40px;
 }
 
 .archive-skincare-list-wrapper {
@@ -24,8 +36,9 @@
 }
 
 .archive-product-item-image {
-  max-height: 460px;
+  max-width: 420px;
   text-align: center;
+  overflow: hidden;
 }
 
 .archive-product-item-image img {
