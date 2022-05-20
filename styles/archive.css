@@ -10,15 +10,18 @@
   background-repeat: repeat;
   padding: 20px;
   position: relative;
-  padding-bottom: 200px;
 }
 
 .archive-page-width h1 {
   text-align: center;
   font-size: 48px;
   font-weight: 400;
-  text-shadow: 0 0 15px white, 0 5px 0 rgb(255 255 255 / 75%);
   margin-bottom: 40px;
+}
+
+.archive-content {
+  background-color: #FFF;
+  padding: 40px 40px 200px;
 }
 
 .archive-skincare-list-wrapper {
@@ -32,7 +35,6 @@
   flex-direction: column;
   max-width: 750px;
   position: relative;
-  background-color: #FFF;
 }
 
 .archive-product-item-image {
